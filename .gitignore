@@ -16,3 +16,39 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the IDE
+.idea/
+.gradle/
+build/
+captures/
+local.properties
+
+# Generated files by Android Studio
+*.iml
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Signing files
+signing.properties
+
+# Other build files
+/gradle/
+/.gradle/
+
+# Crashlytics configuration file
+crashlytics.properties
+
+# Configuration files for Firebase
+google-services.json
+google-services-desktop.json
+
+# Mac OS files
+.DS_Store
